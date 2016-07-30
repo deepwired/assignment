@@ -36,7 +36,7 @@ $light-red-color: #dd7e7e;
         height:0;
         border-left: 5px solid transparent;
         border-right: 5px solid transparent;
-        border-top: 10px solid black;
+        border-top: 10px solid white;
         display:inline-block;
         margin-left:2%;
     }
@@ -46,7 +46,7 @@ $light-red-color: #dd7e7e;
         height:0;
         border-left: 5px solid transparent;
         border-right: 5px solid transparent;
-        border-bottom: 10px solid black;
+        border-bottom: 10px solid white;
         display:inline-block;
         cursor: pointer;
         margin-left:2%;
@@ -65,11 +65,16 @@ $light-red-color: #dd7e7e;
     }
     .fail
     {
-        background-color: $light-red-color;
+        background-color: $light-red-color!important;
     }
     .margin
     {
         margin:1%;
+    }
+    .marginlr
+    {
+        margin-left:1%;
+        margin-right:1%;
     }
     .banner
     {
@@ -81,4 +86,7 @@ $light-red-color: #dd7e7e;
     }
     a{
         color:black;
+    }
+    tbody tr:nth-child(odd) {
+        background-color: #eee;
     }
