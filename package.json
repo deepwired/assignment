@@ -1,0 +1,35 @@
+{
+  "name": "assignment",
+  "version": "1.0.0",
+  "description": "webonise assignment",
+  "main": "controller.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/deepwired/assignment.git"
+  },
+  "keywords": [
+    "deepwired",
+    "webonise",
+    "assignment",
+    "angular"
+  ],
+  "author": "Deep Singh Baweja",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/deepwired/assignment/issues"
+  },
+  "homepage": "https://github.com/deepwired/assignment#readme",
+  "devDependencies": {
+    "browser-sync": "^2.13.0",
+    "gulp": "^3.9.1",
+    "gulp-concat": "^2.6.0",
+    "gulp-jshint": "^2.0.1",
+    "gulp-rename": "^1.2.2",
+    "gulp-sass": "^2.3.2",
+    "gulp-uglify": "^1.5.4",
+    "gulp-useref": "^3.1.0"
+  }
+}
